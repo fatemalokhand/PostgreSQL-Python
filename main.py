@@ -6,8 +6,8 @@ from psycopg2 import sql
 def db_connection():
     try:
         # the configuration for connecting to the database
-        # Note: Replace these parameters (database, user, password, host) with your actual PostgreSQL credentials!!!!
-        database_connection = psycopg2.connect(database="student_database", user="postgres", password="@DatabaseSystems1", host="localhost", port=5432)
+        # Note: Replace these parameters (database, user, password, and host) with your actual PostgreSQL credentials!!!!
+        database_connection = psycopg2.connect(database="", user="", password="", host="localhost", port=5432)
         return database_connection
     # error handling
     except Exception as err:
@@ -179,4 +179,5 @@ if __name__ == "__main__":
     #deleteStudent(1)
     # displaying all the students from the students table
     #getAllStudents()
+
 
