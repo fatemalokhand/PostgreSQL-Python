@@ -1,33 +1,12 @@
-# COMP3005
-
-# Assignment 3 - Question 1
-
-# Name: Fatema Lokhandwala
-
-# SN: 101259465
-
 ## Objective
 
 This project implements CRUD (Create, Read, Update, Delete) operations on a PostgreSQL database using Python.
-
----
-
-## Application Functions
-
-- getAllStudents(): Retrieves and displays all records from the students table.
-- addStudent(): Insert a new student record into the students table.
-- updateStudentEmail(): Updates the email address for the student with the specified student_id.
-- deleteStudent(): Deletes the record of the student with the specified student_id.
-
----
 
 ## Need to have
 
 - Python v3.8 or higher must be installed
 - PostgreSQL must be installed and running via pgAdmin
 - psycopg2 library
-
----
 
 ## Instructions to setup and run the application
 
@@ -70,8 +49,3 @@ To run the application, enter:
 python main.py
 ```
 
----
-
-## Video Link
-
-Here's the link to my video: https://www.youtube.com/watch?v=-NlP8CKXUyM  
